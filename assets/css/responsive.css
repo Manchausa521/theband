@@ -1,0 +1,49 @@
+ /* Mobile: width < 740px */
+ @media(max-width: 46.1875em) {
+     .text1__content-title {
+         font-size: 2rem;
+     }
+
+     .text1,
+     .text2_container,
+     .text3__content,
+     .text4 {
+         padding: 16px;
+     }
+
+     .text4__title {
+         font-size: 2rem;
+         margin-top: 16px;
+     }
+
+     .text4__sub {
+         font-size: 1.2rem;
+         margin-top: 16px;
+     }
+
+ }
+
+ /* Tablet: width>=740px and width <1024px */
+ @media(min-width: 46.25em) and (max-width: 63.9375em) {
+     .text1 {
+         padding: 100px 150px;
+     }
+
+     .text2_container {
+         padding: 100px 80px;
+     }
+
+     .text4 {
+         padding: 100px 80px;
+
+     }
+ }
+
+
+ /* pc : width >=1024px */
+ @media(min-width: 64em) {
+     .text2_container {
+         padding-left: 40px;
+         padding-right: 40px;
+     }
+ }
